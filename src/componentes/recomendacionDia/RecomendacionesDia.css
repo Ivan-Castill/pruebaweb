@@ -1,0 +1,19 @@
+/* src/componentes/RecomendacionesDia/RecomendacionesDia.css */
+.recomendaciones-dia {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .recomendaciones-dia h3 {
+    font-size: 20px;
+    color: #2c3e50;
+  }
+  
+  .recomendaciones-dia p {
+    font-size: 16px;
+    color: #34495e;
+  }
+  

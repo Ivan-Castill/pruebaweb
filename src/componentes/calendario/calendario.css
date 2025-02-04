@@ -1,0 +1,69 @@
+.react-calendar {
+  max-width: 500px;
+  margin: auto;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  background-color: rgba(0, 77, 6, 0.411); /* 0.5 es la transparencia (50%) */
+}
+
+.react-calendar__tile {
+  max-width: initial !important;
+  padding: 12px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: transparent; /* Fondo transparente */
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.react-calendar__tile--now {
+  background: transparent; /* Fondo transparente */
+  color: #18242e;
+  font-weight: bold;
+  border-radius: 50%;
+  transform: scale(1.05);
+}
+
+.react-calendar__tile--active {
+  background: transparent; /* Fondo transparente */
+  color: #4caf50;
+  font-weight: bold;
+  border-radius: 50%;
+  transform: scale(1.05);
+}
+
+.react-calendar__tile--weekend {
+  color: #f44336; /* Color de fin de semana */
+}
+
+.react-calendar__tile:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Color sutil al pasar el ratón */
+  cursor: pointer;
+}
+
+
+
+.react-calendar__navigation button {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.react-calendar__navigation button:hover {
+  color: #004a99;
+}
+
+.react-calendar__navigation button[disabled] {
+  color: #bbb;
+  cursor: not-allowed;
+}
+
+.react-calendar__navigation__prev2-button,
+.react-calendar__navigation__next2-button {
+  display: none; /* Opcional: oculta los botones de mes anterior y siguiente */
+}

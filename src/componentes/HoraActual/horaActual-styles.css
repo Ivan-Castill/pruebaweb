@@ -1,0 +1,25 @@
+.hora-contenedor {
+    text-align: center;
+    padding: 10px;
+    background-color: #e2cbaf;
+    border-radius: 10px;
+    height: 495px;
+    width: 250px;
+  }
+  
+  .hora-actual {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .hora-gif {
+    width: 200px; /* Ajusta el tamaño del GIF */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+  }

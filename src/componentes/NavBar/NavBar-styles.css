@@ -1,0 +1,34 @@
+
+.nav-bar {
+    background-color:rgb(255, 255, 255); /* Fondo blanco con transparencia */
+    position: fixed; /* Fija la barra en la parte superior */
+    top: 0; /* Se asegura de que esté en la parte superior */
+    left: 0;
+    width: 100%;/*arca todo el ancho de la página */
+    z-index: 2000; /* Coloca el nav encima de otros elementos */
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(43, 42, 42, 0.1); /* Sombra para darle un poco de profundidad */
+    backdrop-filter: blur(5px); /* Efecto de desenfoque detrás del nav */
+}
+.logo{
+    width: 90px;
+    margin-left: 10px;
+}
+.nav-bar h1 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.items {
+    display: flex;
+    list-style: none;
+}
+.items a {
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+main {
+    margin-top: 80px; /* Altura del nav-bar */
+}
