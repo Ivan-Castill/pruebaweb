@@ -4,7 +4,7 @@ import NavBar from '../NavBar/NavBar'
 import Calendar from '../calendario/calendario'
 import UbicacionUser from '../UbicacionUser/ubicacion'
 import CalidadDelAire from '../calidaddelAire/calidaddelAire'
-import HoraActual from '../horaActual/horaActual'
+import HoraActual from "../HoraActual/horaActual"
 import CompocisionDeAire from '../compocisionDelAire/compocisionDelAire'
 import "./PgHome-styles.css"
 import RecomendacionesClima from '../recomendacionClima/recomendacionClima'
