@@ -1,5 +1,5 @@
 import React from 'react'
-import ClimaActual from "../climaActual/climaActual"
+import ClimaActual from "../climaActual/ClimaActual"
 
 function ClimaReport(){
     return (
